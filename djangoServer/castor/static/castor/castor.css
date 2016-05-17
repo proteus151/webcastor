@@ -1,0 +1,116 @@
+
+p {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+h2 {
+    font-size: large;
+}
+
+div#peers-table {
+    font-size: small;
+}
+
+h1#main-title {
+    text-align: center;
+    width: 600px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+div#castor-top {
+    display: inline-block;
+    float: left;
+    margin-top: 5px;
+    border-style: ridge;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+div#castor-bottom {
+    display: inline-block;
+    float: left;
+    width: 600px;
+    margin-top:  5px;
+    margin-left: 5px;
+}
+
+div#details {
+    width: 80%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div#traffic {
+    border-style: ridge;
+    border-radius: 10px;
+}
+
+div#traffic-title {
+    margin-left: 20px;
+}
+
+div#traffic-plot {
+    margin: 20px;
+}
+
+div#traffic-done {
+    margin-left: 250px;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 98%;
+}
+
+table#details-table {
+    width:  100%;
+}
+
+textarea {
+    width: 98%;
+    border-color: lightgray;
+}
+
+div#device1 {
+    margin-left: 100px;
+    display: inline;
+}
+
+div#device2 {
+    margin-left: 40px;
+    display: inline;
+}
+
+.bannerPort {
+    fill: darkgray;
+    stroke: black;
+    stroke-width: 1;
+}
+
+#bannerRect {
+    fill: cadetblue;
+    stroke: black;
+    stroke-width: 1;
+    fill-opacity: 0.5;
+}
+
+#bannerText {
+    font-family: fantasy;
+    font-size: 42px;
+}
+
+ul.ReactTabs__TabList {
+    background-color: #AFCFD0;
+}
+
+.fixedDataTableRowLayout_main.public_fixedDataTableRow_main.public_fixedDataTableRow_even.public_fixedDataTable_bodyRow {
+    cursor: pointer;
+}
+
+.fixedDataTableRowLayout_main.public_fixedDataTableRow_main.public_fixedDataTableRow_highlighted.public_fixedDataTableRow_odd.public_fixedDataTable_bodyRow {
+    cursor: pointer;
+}

@@ -1,4 +1,4 @@
 #!/bin/sh
-(cd db && ../mongodb-osx-x86_64-3.2.1/bin/mongod  --auth --dbpath $(pwd)) &
-(cd djangoServer/; python manage.py runserver)
+(./mongodb-linux-x86_64-ubuntu1404-3.2.4/bin/mongod  --auth --dbpath $(pwd)/db) &
+(cd djangoServer/; python manage.py runserver 202.9.5.230:8000)
 killall mongod

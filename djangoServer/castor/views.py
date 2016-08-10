@@ -15,7 +15,8 @@ def index(request):
 # Create initial switchport data in DB
 def init(request):
     models.SwitchPort.objects.all().delete()
-    switchDPIDs = [ '2', '4' ]
+#    switchDPIDs = [ '2', '4' ]
+    switchDPIDs = [ 'syd', 'mel' ]
     portsPerSwitch = 32
     for s in switchDPIDs:
         for p in range(1,portsPerSwitch+1):

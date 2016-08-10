@@ -4,9 +4,10 @@ from requests.auth import HTTPBasicAuth
 import json
 
 ONOS_PORT=8181
-ONOS_HOST="onos-2-k.centie.net.au"
+ONOS_HOST="onos-2.centie.net.au"
 ONOS_AUTH=HTTPBasicAuth('karaf','karaf')
-DPID_MAP={'2':'0000000000000002','4':'0000000000000004'}
+#DPID_MAP={'2':'0000000000000002','4':'0000000000000004'}
+DPID_MAP={'syd':'0000000000000002','mel':'0000000000000004'}
 
 # RESET ONOS castor module state
 def reset():

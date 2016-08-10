@@ -4,7 +4,7 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-    ('John', 'john.matthews@data61.csiro.com'),
+    ('craigr', 'Craig.Russell@csiro.au'),
 )
 
 MANAGERS = ADMINS
@@ -14,7 +14,7 @@ DATABASES = {
         'ENGINE': 'django_mongodb_engine',
         'NAME': 'castor',
         'USER': 'castor',
-        'PASSWORD': 'oil',
+        'PASSWORD': 'HarbourBridge',
         'HOST': '',                      # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
         'PORT': '',                      # Set to empty string for default.
     }
